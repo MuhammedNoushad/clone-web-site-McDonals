@@ -1,0 +1,190 @@
+.header{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(91px,1fr));
+    grid-auto-columns: minmax(40px,auto);
+    grid-auto-rows: minmax(29px,auto);
+    gap: 10px;
+}
+
+#logo{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.top{
+    padding-left: 169px;
+    padding-right: 158px;
+    padding-top: 15px;
+}
+
+#lang{
+    border: none;
+}
+#menu{
+    border: none;
+}
+   
+#navbar-bot{
+    text-align: center;
+    grid-template-columns: repeat(7,1fr);
+    display: grid;
+    
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+#navbar-top{
+    grid-gap: 15px;
+    text-align: center;
+    grid-template-columns: repeat(6,1fr);
+    display: grid;
+    
+    grid-column-start: 2;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#select{
+    border: none;
+    outline: none;
+
+}
+#logo-location{
+    
+    color: red;
+}
+#home-page{
+    font-size: 14px;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.button{
+    border-radius: 4px;
+    background-color: #ffbc0d;
+    padding: 10px;
+    font-size: 12px;
+}
+.images{
+    margin-top: 93px;
+   margin-left: 170px;
+   float: left;
+}
+.title{
+    float: left;
+    margin-top: 66px;
+   margin-left: 22px;
+   font-size: 23px;
+}
+.para{
+    font-size:20px ;
+    margin-top: -56px;
+    
+}
+.innerpara{
+    font-size: 11px;
+    margin-top: -23px;
+}
+#mac-button{
+    margin-top: 15px;
+}
+.images1{
+    margin-top: 129px;
+   margin-left: 170px;
+   float: left;
+}
+#title1{
+    margin-top: 105px;
+}
+.aboutus{
+    margin-right: 104px;
+    margin-left: 180px;
+    clear: left;
+    line-height: 1.6;
+    margin-top:130px;
+    float: left;
+   
+    
+}
+.service{
+    
+    line-height: 1.6;
+    margin-top:130px;
+    float: left;
+    margin-right: 104px;
+}
+.community{
+    margin-right: 104px;
+    line-height: 1.6;
+    float: left;
+    margin-top:130px;
+}
+.contact-us{
+    line-height: 1.6;
+    float: left;
+    margin-top:130px;
+}
+.footer{
+    font: size 1pc;;
+}
+.social-media{
+    margin-bottom:49px;
+    margin-left: 189px;
+    float: left;
+    clear: left;
+}
+.facebook{
+    
+    margin-right:24px ;
+}
+.x{
+    margin-right:24px ;
+}
+.youtube{
+    margin-right:24px ;
+}
+.instagram{
+    margin-right:24px ;
+}
+.spotify{
+    margin-right:24px ;
+}
+.store{
+    margin-left: 534px;
+    float: left;
+}
+.hr{
+    margin-right: 170px;
+    margin-left: 160px;
+    clear: left;
+}
+.bottom{
+    clear: left;
+    float: left;
+    margin-left: 175px;
+}
+.p{
+    float: left;
+}
+.s-icon{
+    margin-right: 60px;
+    margin-left: 197px;
+    padding-top: 15px;
+    float: left;
+}
+#p1{
+    font-weight: bold;
+    font-size: smaller;
+}
+#location-change{
+
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#reward{
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
